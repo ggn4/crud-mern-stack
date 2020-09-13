@@ -39,7 +39,7 @@ const CreateUser = () => {
   return (
     <>
       {successMsg ? (
-        <p className="alert-success p-2 font-weight-bolder">
+        <p className="alert-success p-2 font-weight-bolder text-center">
           User Created Successfully!
         </p>
       ) : (

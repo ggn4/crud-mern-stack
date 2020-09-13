@@ -1,14 +1,11 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import "./App.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
 import { Switch, Route, Link } from "react-router-dom";
-
 import CreateUser from "./components/create-user.component";
 import EditUser from "./components/edit-user.component";
 import ListUser from "./components/list-user.component";
@@ -22,7 +19,8 @@ function App() {
             <Container>
               <Navbar.Brand>
                 <Link to={"/create-user"} className="nav-link text-white">
-                  <i className="fas fa-laptop-code pr-1"></i>MERN STACK CRUD APP
+                  <i className="fas fa-laptop-code pr-1 "></i>MERN STACK CRUD
+                  APP
                 </Link>
               </Navbar.Brand>
               <Nav>
